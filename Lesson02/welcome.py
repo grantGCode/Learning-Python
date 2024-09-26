@@ -3,6 +3,7 @@ line02 = "*                   *"# re-use
 line03 = "*     WELCOME!      *"
 
 
+
 #starts with a blank Line
 print('')
 print(line01)
