@@ -121,4 +121,6 @@ print(nums) # Returns: {1, 2, 3}
 
 # True is a dupe of 1, False is a dupe of zero
 nums = {1, True, 2, False, 3, 4, 0}
-print(nums) # Returns:
+print(nums) # Returns: {False, 1, 2, 3, 4}
+# 1 and 0 are considered True and False in code.
+
