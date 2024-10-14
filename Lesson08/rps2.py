@@ -10,8 +10,7 @@ class RPS(Enum):
 playagain = True
 
 while playagain:
-    print("")
-    playerchoice = input("Enter... \n1 for Rock,\n2 for Paper, or \n3 for Scissors:\n\n")
+    playerchoice = input("\nEnter... \n1 for Rock,\n2 for Paper, or \n3 for Scissors:\n\n")
 
     player = int(playerchoice)
 
@@ -22,11 +21,8 @@ while playagain:
 
     computer = int(computerchoise)
 
-    print("")
-    print("You chose "+ str(RPS(player)).replace("RPS.", "") + "." )
-    print("Python chose "+ str(RPS(computer)).replace("RPS.", "") + "." )
-    print("")
-
+    print("\nYou chose "+ str(RPS(player)).replace("RPS.", "") + "." )
+    print("Python chose "+ str(RPS(computer)).replace("RPS.", "") + ".\n" )
 
     if playerchoice == 1 and computerchoise == 3:
         print("🎉 You win!")
@@ -46,4 +42,5 @@ while playagain:
         print("\n🎉🎉🎉🎉")
         print("Thank you for playing!\n")
         break
-        # or I could also use: playagain = False
+        # or I could also use: playagain = False        
+sys.exit("Bye! 👋")
