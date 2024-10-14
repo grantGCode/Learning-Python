@@ -17,4 +17,5 @@ def sum(num1, num2):
 total = sum(2,3)
 print(total)
 print(sum("a",3))
+# print(sum()) Returns: TypeError: sum() missing 2 required positional arguments: 'num1' and 'num2'
 
