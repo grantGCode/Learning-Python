@@ -34,7 +34,6 @@ def play_rps():
     else:
         print("😈 Python wins!")
 
-    print("\nPlay again?")
     while True:
         playagain = input("\nPlay again? \nY for Yes or \nQ to Quit \n\n")
         if playagain.lower() not in ["y", "q"]:
